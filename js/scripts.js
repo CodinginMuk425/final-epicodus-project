@@ -1,8 +1,6 @@
 //backend
 var startarray = [];
 var finalarray = [];
-//var outcome = $("#result");
-//console.log(outcome.text());
 function finalresult() {
     for (var i = 0; i < startarray.length; i++) {
         if (startarray[i].includes("3")) {
@@ -29,7 +27,10 @@ $(document).ready(function () {
             i = i.toString();
             startarray.push(i);
         } 
-        console.log(inputValue);
         finalresult();
+    });
+    $(".reveal").hide();
+    $("#appear").click(function() {
+        $(".reveal").show();
     });
 })
