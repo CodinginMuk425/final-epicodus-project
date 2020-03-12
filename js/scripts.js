@@ -13,7 +13,7 @@ function finalresult() {
             finalarray.push(i);
         }
     }
-    $("#result").text(finalarray).show();    
+    $("#result").text(finalarray).show();
 }
 
 
@@ -26,11 +26,13 @@ $(document).ready(function () {
         for (var i = 0; i <= inputValue; i++) {
             i = i.toString();
             startarray.push(i);
-        } 
+        }
         finalresult();
     });
+    // hide img/text front-end
     $(".reveal").hide();
-    $("#appear").click(function() {
+    $("#appear").click(function () {
         $(".reveal").show();
+        $(".redo").show();
     });
 })
