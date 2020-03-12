@@ -35,4 +35,7 @@ $(document).ready(function () {
         $(".reveal").show();
         $(".redo").show();
     });
+    $(".redo").click(function() {
+        $("form#numbers").trigger("reset");
+    });
 })
