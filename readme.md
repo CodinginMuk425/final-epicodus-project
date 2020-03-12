@@ -7,12 +7,25 @@
 ## Description
 
 _This is a week 9/10 project we have been instructed to create as a way to better our coding skills. It is the third and final major project we will be using as a way to document our progression throughout the program. This particular project will demonstrate our knowledge of what has been covered in class thus far. The primary focus of this site/assignment is to incorporate Arrays and Looping skills along with what we have covered previously such as jQuery, Javascript, Bootstrap and more._
+## Specs
+* Spec: The program returns a range of numbers from 0 to the users inputted number 
+    * Input: "4"
+    * Output: "0, 1, 2, 3, 4"    
+* Spec: Numbers in the range that contain a three will change to a response 
+    * Input: "3"
+    * Output: "0, 1, 2, 'Won't you be my neighbor?'"
+* Spec: Numbers in the range that contain a two will change to a response 
+    * Input: "2"
+    * Output: "0, 1, 'Boop!', 'Won't you be my neighbor?'"
+* Spec: Numbers in the range that contain a one will change to a response 
+    * Input: "1"
+    * Output: "0, 'Beep!', 'Boop!', 'Won't you be my neighbor?'"
 
 ## Setup/Installation Requirements
 
 1. Clone the code from GitHub through this link: "link not yet ready"
-2. TBD
-3. TBD
+2. Open the file in a browser of choice.
+3. See what Mr. Roboger has to say!
 
 ## Known Bugs
 

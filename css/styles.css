@@ -24,7 +24,6 @@ body {
   color: white;
   border: 0px;
   border-radius: 0.5em;
-  display: none;
   font-weight: bold;
 }
 
@@ -36,11 +35,13 @@ h1{
   font-style: italic;
   font-size: 50px;
   text-align: center;
-  border-bottom: 3px solid black;
 }
 #appear {
   font-weight: bold;
 }
 .container{
   padding: 0px;
+}
+p {
+  padding-top: 15px;
 }

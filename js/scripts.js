@@ -31,11 +31,16 @@ $(document).ready(function () {
     });
     // hide img/text front-end
     $(".reveal").hide();
+    $(".redo").hide();
     $("#appear").click(function () {
+        $("#appear").hide();
         $(".reveal").show();
         $(".redo").show();
+        
     });
     $(".redo").click(function() {
+        $(".redo").hide();
+        $("#appear").show();
         $("form#numbers").trigger("reset");
-    });
+     });
 })
