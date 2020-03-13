@@ -23,7 +23,7 @@ _This is a week 9/10 project we have been instructed to create as a way to bette
 
 ## Setup/Installation Requirements
 
-1. Clone the code from GitHub through this link: https://github.com/CodinginMuk425/final-epicodus-project
+1. Clone the code from GitHub through this link: https://github.com/CodinginMuk425/final-epicodus-project/tree/gh-pages
 2. Open the file in a browser of choice.
 3. See what Mr. Roboger has to say!
 4. To view the page, go here: https://codinginmuk425.github.io/final-epicodus-project/
