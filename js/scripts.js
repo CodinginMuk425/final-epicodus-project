@@ -28,6 +28,7 @@ $(document).ready(function () {
             startarray.push(i);
         }
         finalresult();
+        console.log(finalarray);
     });
     // hide img/text front-end
     $(".reveal").hide();
@@ -36,11 +37,12 @@ $(document).ready(function () {
         $("#appear").hide();
         $(".reveal").show();
         $(".redo").show();
-        
+        $("#robot").hide();
     });
     $(".redo").click(function() {
+        $("form#numbers").trigger("#result");
         $(".redo").hide();
         $("#appear").show();
-        $("form#numbers").trigger("reset");
+        location.reload();
      });
 })
